@@ -1,5 +1,15 @@
 # PointRCNN
 
+## Changes
+
+Now compatible with new versions of Torch, has been tested in the following environments：
+
+- OS: Linux 5.15.146.1-microsoft-standard-WSL2
+- GCC: gcc (GCC) 13.2.1 2023080
+- CUDA: Cuda compilation tools, release 12.1, V12.1.105
+- Python: Python 3.11.8
+- PyTorch: 2.2.1 with CUDA 12.1
+
 ## PointRCNN: 3D Object Proposal Generation and Detection from Point Cloud
 ![teaser](https://github.com/sshaoshuai/PointRCNN/blob/master/doc/teaser.png)
 
