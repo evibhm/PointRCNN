@@ -10,6 +10,10 @@ Now compatible with new versions of Torch, has been tested in the following envi
 - Python: Python 3.11.8
 - PyTorch: 2.2.1 with CUDA 12.1
 
+In WSL2, you need to set the enviroment variable:
+
+- `NUMBA_CUDA_DRIVER="/usr/lib/wsl/lib/libcuda.so.1"`
+
 ## PointRCNN: 3D Object Proposal Generation and Detection from Point Cloud
 ![teaser](https://github.com/sshaoshuai/PointRCNN/blob/master/doc/teaser.png)
 
